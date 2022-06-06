@@ -1,5 +1,34 @@
-body {
+body 
+{
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
 }
+
+nav a
+{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #bbbbbb;
+  gap: 0.625%;
+}
+
+section[id="featured-property"] p
+{
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  padding: 15px;
+}
+
+section[id="details"] div
+{
+  margin: auto;
+  width: 25%;
+  background: red;
+  float: left;
+  
+}
+
